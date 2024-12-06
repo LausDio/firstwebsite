@@ -1,82 +1,44 @@
 <!DOCTYPE html>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-  <head>
-    <h2>CatPhotoApp</h2>
-  </head>
-  <body>
-    <main>
-      <p>Click here to view more <a href="#">cat photos</a>.</p>
 
-      <a href="#"
-        ><img
-          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-          alt="A cute orange cat lying on its back."
-      /></a>
+<head class="header">
+  <title>Figma Land</title>
+  <img class="header_background" src="images/background.jpeg" alt="background">>
+  <nav class="header_nav">
+    <ul class="header_menu">
+      <li class="header_menu-item">Home</li>
+      <li class="header_menu-item">Product</li>
+      <li class="header_menu-item">Pricing</li>
+      <li class="header_menu-item">About</li>
+      <li class="header_menu-item">Contact</li>
+    </ul>
+    <div class="header_logo"><a href="#"><img src="images/figma-logo.jpeg" alt="logo"></a></div>
+    <div class="header_social"><a href="https://www.facebook.com/?locale=uk_UA"><img src="images/facebook_icon.png"
+          alt="facebook"></a>
+      <a href="https://x.com/home"><img src="images/twitter_icon.png" alt="twitter"></a>
+      <a href="https://www.linkedin.com/feed/"><img src="images/linkedin_icon.png" alt="linkedin"></a>
+    </div>
+  </nav>
+  <div class="slogan">
+    <h1>The best products start with Figma</h1>
+    <h4>Most calendars are designed for teams. Slate is designed for freelancers</h2>
+    <button class="button">Try For Free</button>
+  </div>
+</head>
 
-      <p>Things cats love:</p>
-      <ul>
-        <li>catnip</li>
-        <li>laser pointers</li>
-        <li>lasagna</li>
-      </ul>
-      <p>Top 3 things cats hate:</p>
-      <ol>
-        <li>flea treatment</li>
-        <li>thunder</li>
-        <li>other cats</li>
-      </ol>
+<body>
+  <div class="Hero">
+    <h2>Fastest way to organize</h3>
+      <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+      <button class="button">Try For Free</button>
+      <img src="images/screenshot.jpeg" alt="screenshot">
+  </div>
+  <div class="CTA"></div>
+  <div class="Partner"></div>
+  <div class="Testimonials"></div>
+  <div class="Pricing"></div>
+  <div class="Contact"></div>
+</body>
+<footer class="footer"></footer>
 
-      <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-        <label for="indoor"
-          ><input
-            id="indoor"
-            type="radio"
-            name="indoor-outdoor"
-            value="indoor"
-            checked
-          />
-          Indoor</label
-        >
-        <label for="outdoor"
-          ><input
-            id="outdoor"
-            type="radio"
-            name="indoor-outdoor"
-            value="outdoor"
-          />
-          Outdoor</label
-        ><br />
-        <label for="loving"
-          ><input
-            id="loving"
-            type="checkbox"
-            name="personality"
-            value="loving"
-            checked
-          />
-          Loving</label
-        >
-        <label for="lazy"
-          ><input id="lazy" type="checkbox" name="personality" value="lazy" />
-          Lazy</label
-        >
-        <label for="energetic"
-          ><input
-            id="energetic"
-            type="checkbox"
-            name="personality"
-            value="energetic"
-          />
-          Energetic</label
-        ><br />
-        <input type="text" placeholder="cat photo URL" required />
-        <button type="submit">Submit</button>
-      </form>
-    </main>
-  </body>
 </html>
